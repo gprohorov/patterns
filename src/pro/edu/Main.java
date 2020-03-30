@@ -3,7 +3,7 @@ package pro.edu;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello? world!");
+   /*     System.out.println("Hello? world!");
 
         Student john = new Student("John Lennon", 22);
         Student paul = StudentFactory.create("Paul McCartney", 21);
@@ -16,6 +16,8 @@ public class Main {
         IFigure rombus = AbstractFactory2.create(2, 3, Figure.ROMBUS);
 
         IFigure triangle  = AbstractFactory2.create(2, 3, 4);
+*/
+
 
         Rectangle rectangle = new Rectangle(3,4);
         System.out.println(rectangle);

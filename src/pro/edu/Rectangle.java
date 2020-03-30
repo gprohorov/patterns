@@ -19,6 +19,16 @@ public class Rectangle implements IFigure{
         }
     }
 
+/*
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "a=" + a +
+                ", b=" + b +
+                '}';
+    }
+*/
+
     public Rectangle clone(){
         return new Rectangle(this);
     }
